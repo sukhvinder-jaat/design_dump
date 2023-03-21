@@ -251,7 +251,13 @@
     grid-gap: 20px;
     grid-template-columns: auto;
 }
+.effect {
+    transition: all 0.5s linear;
+}
 
+.effect:hover {
+    transform: scale(1.1);
+}
 
 @media (max-width:400px) {
     .image-1 {
