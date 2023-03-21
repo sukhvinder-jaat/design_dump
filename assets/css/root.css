@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.ff_poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+:root {
+    /* Font size */
+    --fs-96: 96px;
+    --fs-48: 48px;
+    --fs-20: 20px;
+
+    /* color */
+    --color-blackk: #000;
+    --color-black: #3A3A3A;
+    --color-orange: #F1875E;
+    --color-blue: #007FEF;
+}
+
+/* FONT SIZE CLASSES */
+
+.fs_96 {
+    font-size: var(--fs-96);
+}
+
+.fs_48 {
+    font-size: var(--fs-48);
+}
+
+.fs_20 {
+    font-size: var(--fs-20);
+}
+
+.clr_black {
+    color: var(--color-black);
+}
+
+.clr_orange {
+    color: var(--color-orange);
+}
+
+.clr_blue {
+    color: var(--color-blue);
+}
+
+.bg_black {
+    background-color: var(--color-blackk);
+}
+
+/* FONT WEIGHT */
+
+.fw_700 {
+    font-weight: 700;
+}
+
+@media (max-width:992px) {
+    :root {
+        /* Font size */
+        --fs-96: 56px;
+        --fs-48: 48px;
+        --fs-20: 20px;
+
+    }
+}
+
+@media (max-width:768px) {
+    :root {
+        /* Font size */
+        --fs-96: 46px;
+        --fs-48: 48px;
+        --fs-20: 20px;
+
+    }
+}
+
+@media (max-width:576px) {
+    :root {
+        /* Font size */
+        --fs-96: 36px;
+        --fs-48: 48px;
+        --fs-20: 20px;
+
+    }
+}
